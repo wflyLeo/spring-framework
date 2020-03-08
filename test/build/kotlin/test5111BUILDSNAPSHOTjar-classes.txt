@@ -1,0 +1,1 @@
+E:\space1\spring-framework\test\build\classes\java\main\com\testcontext\AppConfig.class;E:\space1\spring-framework\test\build\classes\java\main\com\testcontext\BeanTest.class;E:\space1\spring-framework\test\build\classes\java\main\com\testcontext\Test.class
