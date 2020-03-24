@@ -14,6 +14,7 @@ repositories {
 dependencies {
     compile(project(":spring-context"))
     compile(project(":spring-context"))
+    compile(project(":spring-tx"))
     optional(project(":spring-instrument"))
     testCompile group: 'junit', name: 'junit', version: '4.12'
 }

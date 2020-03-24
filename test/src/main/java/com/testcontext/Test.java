@@ -11,4 +11,5 @@ public class Test {
 		BeanTest beanTest1 = app.getBean(BeanTest.class);
 		System.out.println(beanTest == beanTest1);
 	}
+
 }

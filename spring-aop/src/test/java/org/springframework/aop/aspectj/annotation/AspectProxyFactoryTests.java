@@ -16,6 +16,7 @@
 
 package org.springframework.aop.aspectj.annotation;
 
+
 import java.io.Serializable;
 import java.util.Arrays;
 
@@ -24,6 +25,7 @@ import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
 import org.junit.Test;
+import org.springframework.tests.sample.beans.ITestBean;
 import test.aop.PerThisAspect;
 
 import org.springframework.util.SerializationTestUtils;
@@ -72,7 +74,7 @@ public class AspectProxyFactoryTests {
 		assertEquals(0, proxy2.getAge());
 		assertEquals(2, proxy1.getAge());
 	}
-
+2
 	@Test(expected = IllegalArgumentException.class)
 	public void testWithInstanceWithNonAspect() throws Exception {
 		AspectJProxyFactory pf = new AspectJProxyFactory();
